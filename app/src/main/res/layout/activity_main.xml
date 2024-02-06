@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Demo Animation"
+           />
+
+        <Button
+            android:id="@+id/btnFade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fade"
+
+
+            />
+        <Button
+            android:id="@+id/btnScale"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Scale"
+
+
+            />
+        <Button
+            android:id="@+id/btnRotate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Rotate"
+
+
+            />
+        <Button
+            android:id="@+id/btnTranslate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Translate"
+            />
+        <Button
+            android:id="@+id/btnCode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Animation parcode"
+            />
+        <ImageView
+            android:id="@+id/imgAnimation"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_launcher_background"
+            />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
